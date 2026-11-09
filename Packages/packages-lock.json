@@ -1,18 +1,5 @@
 {
   "dependencies": {
-    "com.unity.2d.animation": {
-      "version": "16.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.2d.common": "15.0.0",
-        "com.unity.2d.sprite": "1.0.0",
-        "com.unity.collections": "2.4.3",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.uielements": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.2d.aseprite": {
       "version": "6.0.0",
       "depth": 0,
@@ -77,17 +64,6 @@
         "com.unity.modules.uielements": "1.0.0"
       }
     },
-    "com.unity.2d.tilemap.extras": {
-      "version": "9.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.2d.tilemap": "1.0.0",
-        "com.unity.modules.tilemap": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.2d.tooling": {
       "version": "4.0.1",
       "depth": 0,
@@ -116,7 +92,7 @@
     },
     "com.unity.collections": {
       "version": "2.6.2",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.23",
@@ -175,7 +151,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -240,24 +216,13 @@
     },
     "com.unity.test-framework.performance": {
       "version": "3.2.0",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.timeline": {
-      "version": "6.6.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.director": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
-      }
     },
     "com.unity.ugui": {
       "version": "2.0.0",
@@ -381,12 +346,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.physicscore2d": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.modules.screencapture": {
       "version": "1.0.0",
       "depth": 0,
@@ -418,26 +377,12 @@
         "com.unity.modules.terrain": "1.0.0"
       }
     },
-    "com.unity.modules.tetgen": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.modules.tilemap": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.physics2d": "1.0.0"
-      }
-    },
-    "com.unity.modules.timelinefoundation": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
     "com.unity.modules.ui": {
